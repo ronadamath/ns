@@ -1,0 +1,15 @@
+<html> 
+<body>
+<h1> student details</h1>
+<p id="demo"></p>
+<p id="sample"></p>
+<script>
+const txt='{"name":"nivi","roll":15,"city":"hst","phone":93884793}'
+const obj=JSON.parse(txt);
+document.getElementById("demo").innerHTML=obj.name+","+obj.roll;
+document.getElementById("sample").innerHTML=obj.city+","+obj.phone;
+</script>
+</body>
+</html>
+
+
